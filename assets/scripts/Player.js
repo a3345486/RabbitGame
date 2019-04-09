@@ -27,23 +27,23 @@ cc.Class({
         },
         dieAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         jumpAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         hit_block_Audio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         player_decrease_Audio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         world1_music: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
     },
 
@@ -55,24 +55,24 @@ cc.Class({
             cc.audioEngine.play(this.world1_music, true, Global.volume);//cc.audioEngine.play(audio, loop, volume);
             var collisionManager = cc.director.getCollisionManager();
             collisionManager.enabled = true;
-            // collisionManager.enabledDebugDraw = true;
+                                  // collisionManager.enabledDebugDraw = true;
             var colliders = this.getComponents(cc.PolygonCollider);
             colliders[0].enabled = true;
             colliders[1].enabled = false;
-            // this.OverNode.active = false;
-            cc.find('over').active = false;
-            cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
-            cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
-            this.collisionX = 0;
-            this.collisionY = 0;
+                                 // this.OverNode.active = false;
+           cc.find('over').active = false;
+           cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+           cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+           this.collisionX = 0;
+           this.collisionY = 0;
 
             this.prePosition = cc.v2();
             this.preStep = cc.v2();
             this.touchingNumber = 0;
             this.anim = this.getComponent(cc.Animation);
-            this.node.setLocalZOrder(999);
-            // this.Score = this.ScoreBar.getComponent('Score');
-            this.Score = cc.find('ScoreBar').getComponent('Score');
+            //this.node.setLocalZOrder(999);
+                                 // this.Score = this.ScoreBar.getComponent('Score');
+           this.Score = cc.find('ScoreBar').getComponent('Score');
         },
     reStart(){
         Global.playIsAlive = true;

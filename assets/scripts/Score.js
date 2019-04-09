@@ -8,7 +8,7 @@ cc.Class({
         hightestScoreLabel:cc.Label,
         coinAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
 

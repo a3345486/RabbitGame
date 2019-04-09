@@ -4,7 +4,7 @@ cc.Class({
     properties: {
         underGroundAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         slider_h: cc.Slider,
         music: cc.AudioSource,

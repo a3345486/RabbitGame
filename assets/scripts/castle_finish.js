@@ -4,7 +4,7 @@ cc.Class({
     properties: {
         high_score_Audio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
 

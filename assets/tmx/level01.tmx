@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="22" tilewidth="32" tileheight="32" nextobjectid="156">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="500" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="156">
  <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="364" columns="26">
   <image source="../gfx/game/Tileset_1.png" width="884" height="476"/>
  </tileset>
- <layer name="floor" width="500" height="22">
+ <layer id="1" name="floor" width="500" height="22">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DwQkAAAwDodsfsnPX6EPBVVNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVdUnDwStAbrgqwAA
+   H4sIAAAAAAAACu3DwQkAAAwDodsfsnPX6EPBVVNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVdUnDwStAbrgqwAA
   </data>
  </layer>
- <layer name="layer3" width="500" height="22">
+ <layer id="2" name="layer3" width="500" height="22">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VsRUAEBQEwfshbdB/jbTgCQhmKthsEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAc62SXq8rAIAbY798+jkAAAAAAAAAAB9auhY1GOCrAAA=
+   H4sIAAAAAAAACu3VsRUAEBQEwfshbdB/jbTgCQhmKthsEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAc62SXq8rAIAbY798+jkAAAAAAAAAAB9auhY1GOCrAAA=
   </data>
  </layer>
- <layer name="layer2" width="500" height="22">
+ <layer id="3" name="layer2" width="500" height="22">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RsQkDMQxA0esua+TWSPafK27cWghiJPB7INyo+MjXBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAf95jX4q0W9XXpPF32n3bvV5kdUWuX3krRjYCc95hn8VaL+rp0ni77T7v3q8yOqLVLb6XoRkDOZ8x38VaL+rp0ni77T7v3q8yOqLVLb6XoRpD1A8pSLdvgqwAA
+   H4sIAAAAAAAACu3RsQkDMQxA0esua+TWSPafK27cWghiJPB7INyo+MjXBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAf95jX4q0W9XXpPF32n3bvV5kdUWuX3krRjYCc95hn8VaL+rp0ni77T7v3q8yOqLVLb6XoRkDOZ8x38VaL+rp0ni77T7v3q8yOqLVLb6XoRpD1A8pSLdvgqwAA
   </data>
  </layer>
- <layer name="layer1" width="500" height="22">
+ <layer id="4" name="layer1" width="500" height="22">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
- <objectgroup name="water" visible="0">
+ <objectgroup id="5" name="water" visible="0">
   <object id="134" name="water7" x="11264" y="604" width="192" height="100"/>
   <object id="136" name="water6" x="2112" y="604" width="128" height="100"/>
   <object id="137" name="water5" x="3392" y="604" width="192" height="100"/>
@@ -32,16 +32,16 @@
   <object id="147" name="water2" x="7552" y="604" width="192" height="100"/>
   <object id="149" name="water1" x="8896" y="604" width="256" height="100"/>
  </objectgroup>
- <objectgroup name="finish" visible="0">
+ <objectgroup id="6" name="finish" visible="0">
   <object id="1" name="finishPoint" x="14048" y="576"/>
  </objectgroup>
- <objectgroup name="checkpoint" visible="0">
+ <objectgroup id="7" name="checkpoint" visible="0">
   <object id="2" name="checkpoint" x="7072" y="480"/>
  </objectgroup>
- <objectgroup name="player" visible="0">
+ <objectgroup id="8" name="player" visible="0">
   <object id="3" name="rabbit" x="96" y="480"/>
  </objectgroup>
- <objectgroup name="coins" visible="0">
+ <objectgroup id="9" name="coins" visible="0">
   <object id="4" name="coin39" x="15552" y="224"/>
   <object id="5" name="coin38" x="15488" y="224"/>
   <object id="6" name="coin37" x="15296" y="224"/>
@@ -82,7 +82,7 @@
   <object id="41" name="coin2" x="12224" y="160"/>
   <object id="42" name="coin1" x="12096" y="160"/>
  </objectgroup>
- <objectgroup name="hidden_bonus_level" visible="0">
+ <objectgroup id="10" name="hidden_bonus_level" visible="0">
   <object id="43" name="hidden_bonus_level5" x="15872" y="512">
    <properties>
     <property name="1" value="exit"/>
@@ -110,7 +110,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="bonus_blocks" visible="0">
+ <objectgroup id="11" name="bonus_blocks" visible="0">
   <object id="48" name="bonus_block6" x="640" y="384">
    <properties>
     <property name="1" value="coin"/>
@@ -142,7 +142,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="hidden_blocks" visible="0">
+ <objectgroup id="12" name="hidden_blocks" visible="0">
   <object id="54" name="hidden_block4" x="7456" y="384">
    <properties>
     <property name="1" value="diamond"/>
@@ -164,7 +164,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="destroyable_blocks" visible="0">
+ <objectgroup id="13" name="destroyable_blocks" visible="0">
   <object id="58" name="destroyable_blocks29" x="15104" y="448">
    <properties>
     <property name="1" value="1"/>
@@ -314,8 +314,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="stand_destroy_blocks" visible="0"/>
- <objectgroup name="enemies" visible="0">
+ <objectgroup id="14" name="stand_destroy_blocks" visible="0"/>
+ <objectgroup id="15" name="enemies" visible="0">
   <object id="87" name="enemy16" x="1312" y="544">
    <properties>
     <property name="1" value="worm"/>
@@ -397,21 +397,21 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="snailBlock" visible="0">
+ <objectgroup id="16" name="snailBlock" visible="0">
   <object id="153" name="snailBlock1" x="8896" y="560" width="256" height="30"/>
   <object id="154" name="snailBlock2" x="6784" y="560" width="192" height="30"/>
  </objectgroup>
- <objectgroup name="enemies_obstacles" visible="0"/>
- <objectgroup name="trampoline" visible="0"/>
- <objectgroup name="platform_horizontal" visible="0"/>
- <objectgroup name="platform_vertical" visible="0"/>
- <objectgroup name="platform_vertical_multiple" visible="0"/>
- <objectgroup name="platform_gravity" visible="0"/>
- <objectgroup name="platform_zigzag" visible="0"/>
- <objectgroup name="platform_motor" visible="0"/>
- <objectgroup name="platform_motor_big" visible="0"/>
- <objectgroup name="trap" visible="0"/>
- <objectgroup name="physics" visible="0">
+ <objectgroup id="17" name="enemies_obstacles" visible="0"/>
+ <objectgroup id="18" name="trampoline" visible="0"/>
+ <objectgroup id="19" name="platform_horizontal" visible="0"/>
+ <objectgroup id="20" name="platform_vertical" visible="0"/>
+ <objectgroup id="21" name="platform_vertical_multiple" visible="0"/>
+ <objectgroup id="22" name="platform_gravity" visible="0"/>
+ <objectgroup id="23" name="platform_zigzag" visible="0"/>
+ <objectgroup id="24" name="platform_motor" visible="0"/>
+ <objectgroup id="25" name="platform_motor_big" visible="0"/>
+ <objectgroup id="26" name="trap" visible="0"/>
+ <objectgroup id="27" name="physics" visible="0">
   <object id="103" name="30" x="15819.8" y="512" width="104.49" height="160"/>
   <object id="104" name="29" x="13408" y="192" width="128" height="64"/>
   <object id="105" name="28" x="13344" y="256" width="192" height="64"/>

@@ -4,7 +4,7 @@ cc.Class({
     properties: {
         clickAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
 

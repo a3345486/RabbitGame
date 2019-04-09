@@ -4,7 +4,7 @@ cc.Class({
     properties: {
         menu_music: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
 
     },

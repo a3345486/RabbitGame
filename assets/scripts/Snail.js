@@ -11,7 +11,7 @@ var Enemy = cc.Class({
         canMove: true,
         dieAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
 

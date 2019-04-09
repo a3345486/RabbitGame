@@ -6,7 +6,7 @@ cc.Class({
         jumpDuring: 0,//持续时间
         jumpAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
     setJumpAction: function ()

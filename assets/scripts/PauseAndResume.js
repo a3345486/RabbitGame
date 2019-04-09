@@ -5,7 +5,7 @@ cc.Class({
         // resumeNode: cc.Node,
         clickAudio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
     onLoad(){

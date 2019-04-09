@@ -9,11 +9,11 @@ cc.Class({
         maxSpeed: cc.v2(2000, 2000),
         mushroom_catch_Audio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         mushroom_appear_Audio: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
     setJumpAction: function ()
