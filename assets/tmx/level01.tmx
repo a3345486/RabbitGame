@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="500" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="156">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="500" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="29" nextobjectid="156">
  <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="364" columns="26">
   <image source="../gfx/game/Tileset_1.png" width="884" height="476"/>
  </tileset>
- <layer id="1" name="floor" width="500" height="22">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu3DwQkAAAwDodsfsnPX6EPBVVNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVdUnDwStAbrgqwAA
-  </data>
- </layer>
- <layer id="2" name="layer3" width="500" height="22">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACu3VsRUAEBQEwfshbdB/jbTgCQhmKthsEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAc62SXq8rAIAbY798+jkAAAAAAAAAAB9auhY1GOCrAAA=
-  </data>
- </layer>
  <layer id="3" name="layer2" width="500" height="22">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAACu3RsQkDMQxA0esua+TWSPafK27cWghiJPB7INyo+MjXBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAf95jX4q0W9XXpPF32n3bvV5kdUWuX3krRjYCc95hn8VaL+rp0ni77T7v3q8yOqLVLb6XoRkDOZ8x38VaL+rp0ni77T7v3q8yOqLVLb6XoRpD1A8pSLdvgqwAA

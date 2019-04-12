@@ -1,47 +1,47 @@
-var Enemy = require("Enemy");
+//var Enemy = require("Enemy"); 初始化Enemy 脚本
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        speed: cc.v2(0, 0),
-        maxSpeed: cc.v2(2000, 2000),
-        gravity: -1000,
-        drag: 1000,
-        direction: 0,
-        jumpSpeed: 300,
-        jumpCount: 0, //跳跃次数 落地之后才可以再跳
-        hunker: false,//是否蹲下
+        speed: cc.v2(0, 0), // 移动速度
+        maxSpeed: cc.v2(2000, 2000), // 最大速度移动速度
+        gravity: -3000,  // 重力
+        drag: 1000,  // 上向拉力
+        direction: 0, //  移动方向判断
+        jumpSpeed: 700, // 跳跃高度
+        jumpCount: 0, // 跳跃次数 落地之后才可以再跳
+        hunker: false,// 是否蹲下
         // isCollisionable: true,
         isWallCollisionCount: 0,
         // OverNode: cc.Node,//结束节点
-        getScore: 0,
-        isDied: false,
+        getScore: 0, //  得分
+        isDied: false, //  死亡状态
         CoinJump: cc.Prefab, // 会跳跃的金币预设体
         // ScoreBar: cc.Node,
-        fallDown: false, //是否为下落状态
-        life: 1,
+        fallDown: false, //  是否为下落状态
+        life: 1,  // 生命数量
         buttonIsPressed: false,//左右键盘是否被摁下
         rabbit: {
             default: null,
-            type: cc.AnimationClip,
+            type: cc.AnimationClip, // 无操作时的动画
         },
         dieAudio: {
             default: null,
-            type: cc.AudioClip
+            type: cc.AudioClip    // 死亡时的音效
         },
         jumpAudio: {
             default: null,
-            type: cc.AudioClip
+            type: cc.AudioClip    // 跳跃时的音效
         },
         hit_block_Audio: {
             default: null,
-            type: cc.AudioClip
+            type: cc.AudioClip     // 撞击方块时的音效
         },
-        player_decrease_Audio: {
+        player_decrease_Audio: {    // 人物变小音效
             default: null,
             type: cc.AudioClip
         },
-        world1_music: {
+        world1_music: {              // 背景音乐
             default: null,
             type: cc.AudioClip
         },
