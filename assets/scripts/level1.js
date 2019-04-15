@@ -23,7 +23,7 @@ cc.Class({
         }
         this.node.on(cc.Node.EventType.TOUCH_START, function ()
         {
-            cc.director.loadScene("Test");
+            cc.director.loadScene("Main");
         });
     },
 
