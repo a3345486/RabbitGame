@@ -38,9 +38,9 @@ cc.Class({
                     // console.log('dis：'+dis);
                     let dest = this.screenMiddle.add(dis);
                     // console.log('dest：'+dest);
-                    dest.x = cc.clampf(dest.x, this.minX, this.maxX);//限定dest.x的最大最小值。
+                    dest.x = cc.misc.clampf(dest.x, this.minX, this.maxX);//限定dest.x的最大最小值。
                     dest.y = this.minY;
-                    // dest.y = cc.clampf(dest.y, this.minY, this.maxY);
+                    // dest.y = cc.misc.clampf(dest.y, this.minY, this.maxY);
                     this.node.position = this.node.parent.convertToNodeSpaceAR(dest);
                 }
 
